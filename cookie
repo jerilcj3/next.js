@@ -1,6 +1,6 @@
 In Server side
 
-```js
+```javascript
 //code to set cookie from the server side
 import cookie from "cookie";
 
