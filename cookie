@@ -1,6 +1,6 @@
 In Server side
 
-```
+```js
 //code to set cookie from the server side
 import cookie from "cookie";
 
@@ -23,7 +23,7 @@ export default function handler(req, res) {
 
 In client side
 
-```
+```js
 export function getServerSideProps({ req, res }) {
   return { props: { token: req.cookies.token || "NONE" } };
 }
