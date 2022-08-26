@@ -1,6 +1,6 @@
 The below code in the server side
 
-```
+```javascript
 //the below api submits data to google spreadsheet
 
 import { google } from "googleapis";
